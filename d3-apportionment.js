@@ -1,3 +1,9 @@
+/*!
+ * d3-apportionment
+ * The MIT License (MIT)
+ * Copyright (c) 2015 Lachlan McDonald
+ */
+
 d3.apportion = function(input, total) {
 	total = total ? total : 100;
 	var r = total - d3.sum(input.map(Math.floor)),
