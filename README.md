@@ -1,6 +1,6 @@
 # d3-apportionment
 
-**d3-apportionment** is a simple [D3.js](http://d3js.org) plugin that ensures than an array of percentages, when rounded, sum to 100 (or some other arbitrary number) whilst retaining the original element order. Implementation of the "[Largest Remainder](https://en.wikipedia.org/wiki/Largest_remainder_method)" method (the *Hare-Niemeyer method*).
+**d3-apportionment** is a simple [D3.js](http://d3js.org) plugin to ensures that an array of numbers, when rounded down, sum to 100 (or some other arbitrary number) whilst retaining the original element order. Implementation of the "[Largest Remainder](https://en.wikipedia.org/wiki/Largest_remainder_method)" method (the *Hare-Niemeyer method*).
 
 ## Usage
 
